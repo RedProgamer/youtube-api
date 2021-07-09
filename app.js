@@ -7,9 +7,9 @@ const profilePicture = document.querySelector('.img-thumbnail');
 const userStatsContainer = document.querySelector('.user-info');
 
 // Client-Side Information
-const client_id = '998400505735-v15ojonfpscdpcqc2llb1vts68gds3c6.apps.googleusercontent.com';
-const client_secret = 'ZMSDHFOfC7fQXD1Leq8mkoq2';
-const api_key = 'AIzaSyD9FNaxC-juqGCpeUKo8NPLN31OgAD601Q';
+const client_id = '';
+const client_secret = '';
+const api_key = '';
 const SCOPE = 'https://www.googleapis.com/auth/youtube.readonly';
 const discovery = 'https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest';
 
