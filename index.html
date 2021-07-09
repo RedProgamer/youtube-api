@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube API videos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <header>
+        <nav id="navbar">
+            <button class="btn btn-danger btn-lg" id="login-out">Sign In</button>
+            <button class="btn btn-danger btn-lg" id="revokeAccess">Sign Out</button>
+        </nav>
+    </header>
+
+
+    <!-- <div class="alert alert-danger" role="alert">
+        Havok Gayboy
+    </div> -->
+
+    <div class="container-empty">
+        <h1>There is nothing, authorize</h1>
+    </div>
+
+    <div class="container-md">
+        <div class="heading">
+            <h1>Your Stats</h1>
+        </div>
+        <div class="contents">
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" class="img-thumbnail rounded mx-auto d-block" alt="Channel Thumbnail">
+            </div>
+            <div class="user-info">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      A list item
+                      <span class="badge bg-danger rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      A second list item
+                      <span class="badge bg-danger rounded-pill">2</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      A third list item
+                      <span class="badge bg-danger rounded-pill">1</span>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-lg">
+        <div class="heading">
+            <h1>Your Videos</h1>
+        </div>
+        <div class="container-card">
+            <!-- <div class="card" style="width: 18rem;">
+                <img src="${values.snippet.thumbnails.high.url}" class="card-img-top" alt="Youtube Video Thumbnail">
+                <div class="card-body">
+                    <h5 class="card-title">${values.snippet.title}</h5>
+                    <p class="card-text">${values.snippet.description.substring(0, 100)}</p>
+                    <a href="https://youtu.be/${values.snippet.resourceId.videoId}" class="btn btn-danger" target="_blank">Watch</a>
+                </div>            
+            </div> -->
+        </div>
+    </div>
+
+    <footer id="footer">
+        <p>Made by Nirmal Jyoti Biswas 2021&copy;</p>
+    </footer>
+    
+    
+    <script src="app.js"></script>
+    
+    <script async defer src="https://apis.google.com/js/api.js"
+        onload="this.onload=function(){};handleClientLoad()"
+        onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+</body>
+</html>
