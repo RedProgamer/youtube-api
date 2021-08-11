@@ -5,5 +5,5 @@
 1. Run the app
 
 
-### Ps: I know this a terrible code and I am sorry for that, I am still a beginner trying to get my head around web technologies and buidling fullstack websites.
+####  PS: I know this a terrible code and I am sorry for that, I am still a beginner trying to get my head around web technologies and buidling fullstack websites.
 Hope you enjoyed it 💗
